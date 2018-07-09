@@ -1,0 +1,16 @@
+{
+  "name": "teste-sass",
+  "version": "1.0.0",
+  "description": "Teste do uso de SASS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/sass source/sass/index.sass public/midias/assets/index.css",
+    "watch": "./node_modules/.bin/sass --watch source/sass/index.sass:public/midias/assets/index.css"
+  },
+  "author": "Johnny Saymon",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.9.0"
+  }
+}

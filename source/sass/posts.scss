@@ -1,0 +1,31 @@
+/* Utilizando sintaxe normal do CSS, note a extensão .scss */
+
+.post {
+    margin: 20px;
+    border: {
+        width: 1px;
+        style: solid;
+        color: rgba(255,255,255,1);
+    }
+    padding: 10px;
+    transition: 1s;
+
+    &:hover {
+        background-color: rgba(255,255,255,1);
+        color: rgba(0,0,0,1);
+        transition: 1s;
+    }
+}
+
+.postTitle {
+    margin: 0 0 10px 0;
+}
+
+.postText {
+    margin: 0;
+}
+
+.postAuthorName {
+    margin: 10px 0 0 0;
+    font-style: italic;
+}
