@@ -1,7 +1,7 @@
 {
-  "name": "teste-sass",
+  "name": "sass-example",
   "version": "1.0.0",
-  "description": "Teste do uso de SASS",
+  "description": "Exemplo do uso do SASS",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
